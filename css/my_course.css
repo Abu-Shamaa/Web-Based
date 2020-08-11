@@ -1,0 +1,68 @@
+body{
+	background: url(../images/image1.jpg);
+	background-size: cover !important;
+	background-color: powderblue;
+}
+
+header h1{
+	color: white;
+	text-align:center;
+}
+header h2 {
+	color:white;
+}
+
+header p{
+	text-align:justify;
+	text-justify:inter-word;
+color:#C0C0C0;
+}
+p{
+text-align:justify;
+	text-justify:inter-word;	
+}
+.car-and-learn{
+	display:grid;
+	grid-template-areas: auto auto;
+}
+.Learn{
+    
+    grid-row:1;
+	grid-coloum:1;
+	background-color:white;
+	border: 10px solid transparent;
+	padding: 20px;
+	border-image: url(../images/border1.jpg) 30 round; 
+	background-image: url("../images/bg3.jpg");
+	background-position:middle;
+	padding: 10px;  
+}
+
+.career{
+  grid-row:1;
+	grid-coloum:2;
+	background-color:white;
+	border: 10px solid transparent;
+	padding: 20px;
+	border-image: url(../images/bg1.jpg) 30 round; 
+	background-image: url("../images/bg4.jpg");
+	background-position: center;
+	padding: 10px; 
+}
+
+ #feelings-para{
+    text-align:justify;
+	text-justify:inter-word;
+     color:#C0C0C0;	
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: Black;
+   color: white;
+}
+
+
+	
+	
